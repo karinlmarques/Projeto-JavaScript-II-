@@ -1,0 +1,58 @@
+const livros = [
+  {
+    id: 1,
+    nome: "Digital Minimalism",
+    autor: "Cal Newport",
+    categoria: "Produtividade",
+    paginas: 254,
+    recomenda: false,
+    leu: false,
+  },
+  {
+    id: 2,
+    nome: "O cemitério de praga",
+    autor: "Umberto Eco",
+    categoria: "romance",
+    paginas: 528,
+    recomenda: true,
+    leu: true,
+  },
+  {
+    id: 3,
+    nome: "Quem Mexeu no Meu Queijo?",
+    autor: "Spencer Johnson",
+    categoria: "autoajuda",
+    paginas: 107,
+    recomenda: false,
+    leu: false,
+  },
+  {
+    id: 4,
+    nome: "Algoritmos para viver",
+    autor: "Brian Christian",
+    categoria: "Tecnologia",
+    paginas: 412,
+    recomenda: true,
+    leu: true,
+  },
+  {
+    id: 5,
+    nome: "O outro lado da vida",
+    autor: "Sylvia Browne",
+    categoria: "autoajuda",
+    paginas: 144,
+    recomenda: true,
+    leu: true,
+  },
+  {
+    id: 6,
+    nome: "21 Lições para o Século 21",
+    autor: "Yuval Harari",
+    categoria: "Filosofia",
+    paginas: 372,
+    recomenda: false,
+    leu: false,
+  },
+];
+
+module.exports = livros
